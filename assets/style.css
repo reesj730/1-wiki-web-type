@@ -1,10 +1,92 @@
 
 body {
-  padding:50px;
+  margin-left: 350px;
+  margin-right: 350px;
+  display: grid;
+  grid-gap: 3em;
+  grid-template-columns: 1;
+  background-color: black
 }
 
+.header {
+  position: sticky;
+}
+
+.content_title{
+  background-color:red; 
+  text-align:center; 
+  vertical-align: middle; 
+  padding:20px 47px;
+}
+
+.text_body{
+  font-size: 16px;
+  line-height: 27px;
+  padding: 3em;
+  background: #ededed;
+}
+
+
+h1{
+ font-family: shackleton-narrow, serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 100px;
+ text-align: center;
+ color: red;
+}
+
+h3{
+ font-family: proxima-nova, sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 24px;
+ top: 20px;
+ text-align: center;
+ color: red;
+}
+
+h2{
+ font-family: shackleton-narrow, serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 32px;
+}
+
+h4{
+ font-family: shackleton-narrow, serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 55px;
+ letter-spacing: 1.2px;
+ color: black;
+ display: inline;
+}
 
 p{
-  font-family: 'Imbue', serif;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height:1.4;
+  font-style: normal;
 }
+
+a {
+  border-bottom: 1px solid red;
+  color: red;
+  padding-bottom: .10em;
+  text-decoration: none;
+}
+
+a:hover {
+  background-image: url("https://www.onlygfx.com/wp-content/uploads/2016/06/blood-drip-2.png");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;
+}
+
+
 
